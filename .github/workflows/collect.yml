@@ -13,14 +13,12 @@ jobs:
         with: {node-version: 20, cache: npm}
       - run: npm ci
       - run: npm run collect
-      - name: Update Potover data
-        env: {GH_TOKEN: '${{ secrets.POTOVER_REPO_TOKEN }}'}
+      - name: Update D1 through Potover API
+        env:
+          POTOVER_API_URL: ${{ secrets.POTOVER_API_URL }}
+          POTOVER_INGEST_TOKEN: ${{ secrets.POTOVER_INGEST_TOKEN }}
         run: |
-          git clone --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/Suuu-sh/Potover.git" potover
-          cp output/articles.json potover/data/articles.json
-          cd potover
-          git config user.name "potover-batch[bot]"
-          git config user.email "potover-batch[bot]@users.noreply.github.com"
-          git add data/articles.json
-          git diff --cached --quiet || git commit -m "chore: update collected source articles"
-          git push
+          curl --fail-with-body -X POST "$POTOVER_API_URL/api/articles" \
+            -H "Authorization: Bearer $POTOVER_INGEST_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data-binary @output/articles.json
