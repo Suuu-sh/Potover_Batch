@@ -1,0 +1,509 @@
+{
+  "collectedAt": "2026-08-31T15:23:41.658Z",
+  "sources": [
+    {
+      "slug": "gto-wizard",
+      "name": "GTO Wizard",
+      "url": "https://blog.gtowizard.com/",
+      "language": "English"
+    },
+    {
+      "slug": "upswing-poker",
+      "name": "Upswing Poker",
+      "url": "https://upswingpoker.com/",
+      "language": "English"
+    },
+    {
+      "slug": "pokernews",
+      "name": "PokerNews",
+      "url": "https://www.pokernews.com/strategy/",
+      "language": "English"
+    },
+    {
+      "slug": "pokercoaching",
+      "name": "PokerCoaching.com",
+      "url": "https://pokercoaching.com/blog/",
+      "language": "English"
+    }
+  ],
+  "articles": [
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "Exploiting Profiles: Episode V – The LAG",
+      "originalUrl": "https://blog.gtowizard.com/exploiting-profiles-episode-v-the-lag/",
+      "author": null,
+      "publishedAt": "Mon, 31 Aug 2026 12:39:01 GMT",
+      "summary": "LAG players are uncomfortable to play against. They barrel, they lead, they never seem to fold, and somehow they keep winning pots they have no business being in. In this article you'll learn how to perfectly exploit them so you start taking their money instead.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "exploit"
+        ]
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "Exploiting Profiles: Episode IV – The TAG",
+      "originalUrl": "https://blog.gtowizard.com/exploiting-profiles-episode-iv-the-tag/",
+      "author": null,
+      "publishedAt": "Mon, 17 Aug 2026 13:54:22 GMT",
+      "summary": "They're not a fish. They're not a maniac. The TAG reg is the opponent you'll face most often, yet most players have no idea how to exploit them.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "exploit"
+        ]
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "Exploiting Profiles: Episode III – The Maniac",
+      "originalUrl": "https://blog.gtowizard.com/exploiting-profiles-episode-iii-the-maniac/",
+      "author": null,
+      "publishedAt": "Tue, 04 Aug 2026 07:12:02 GMT",
+      "summary": "There's a maniac at your table. They bet every street, call everything, and somehow keep winning pots they have no business being in. So what's the adjustment? Do you start blasting back?",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "exploit"
+        ]
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "PLO Upgrades: Custom HU Solving, Postflop ICM, Nodelocking & More",
+      "originalUrl": "https://blog.gtowizard.com/plo-upgrades-custom-hu-solving-postflop-icm-nodelocking-more/",
+      "author": null,
+      "publishedAt": "Mon, 27 Jul 2026 12:00:00 GMT",
+      "summary": "These upgrades have rolled out over the past two months. Taken together, they represent a massive expansion of PLO at GTO Wizard, including tools that don’t exist in any other PLO solver. Here’s everything that’s changed since launch.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "flop",
+          "gto",
+          "icm"
+        ]
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "Playing Under 10bb – Part 2: ICM",
+      "originalUrl": "https://blog.gtowizard.com/playing-under-10bb-part-2-icm/",
+      "author": null,
+      "publishedAt": "Mon, 13 Jul 2026 15:12:53 GMT",
+      "summary": "Studying shallow stack play when ICM is a factor is even more important than studying it in ChipEV Scenarios. This is because we are at the business end of the tournament, where every decision has significant real money implications.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "icm",
+          "mtt"
+        ]
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "Playing Under 10bb – Part 1: cEV",
+      "originalUrl": "https://blog.gtowizard.com/playing-under-10bb-part-1-cev/",
+      "author": null,
+      "publishedAt": "Mon, 29 Jun 2026 13:05:51 GMT",
+      "summary": "The solvers have shown us that short stack strategy can still be very nuanced, and as you will see today, most players are probably punting too much when they find themselves with a micro stack.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": []
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "GTO Wizard at the 2026 World Series of Poker",
+      "originalUrl": "https://blog.gtowizard.com/gto-wizard-at-the-2026-world-series-of-poker/",
+      "author": null,
+      "publishedAt": "Wed, 24 Jun 2026 13:10:43 GMT",
+      "summary": "The World Series of Poker (WSOP), the most prestigious poker tournament series in the world, has named GTO Wizard its Official Poker Training Partner for the 2026 summer series at Paris Las Vegas and Horseshoe Las Vegas.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "gto",
+          "mtt"
+        ]
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "The Four-Point Checklist for Calling Turn Barrels",
+      "originalUrl": "https://blog.gtowizard.com/the-four-point-checklist-for-calling-turn-barrels/",
+      "author": null,
+      "publishedAt": "Mon, 15 Jun 2026 12:06:05 GMT",
+      "summary": "This article will provide a 4-point checklist of questions to ask yourself when facing a barrel, each one giving you an information point on whether our holding is a threshold hand or a clear decision one way or the other.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "turn"
+        ]
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "3-Way: How to Exploit a Calling Station?",
+      "originalUrl": "https://blog.gtowizard.com/3-way-how-to-exploit-a-calling-station/",
+      "author": null,
+      "publishedAt": "Tue, 02 Jun 2026 11:44:52 GMT",
+      "summary": "Andrew Brokos explores the key adjustments to the BTN’s raising range construction strategy when the BB is a calling station.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "exploit"
+        ]
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "INFORMATION ON THE PROCESSING OF PERSONAL DATA",
+      "originalUrl": "https://blog.gtowizard.com/cookie-policy/",
+      "author": null,
+      "publishedAt": "Wed, 20 May 2026 16:14:03 GMT",
+      "summary": "BASIC SUMMARY Via a so-called cookie toolbar located on the website (&apos; Toolbar &apos;), you can provide consent to the company amagama s.r.o. to process your personal data in connection with the saving of cookies on your device. Cookies are small files which allow the company amagama s.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": []
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "PLO Just Changed Forever",
+      "originalUrl": "https://blog.gtowizard.com/plo-just-changed-forever/",
+      "author": null,
+      "publishedAt": "Tue, 12 May 2026 11:20:00 GMT",
+      "summary": "Five years ago, we built GTO Wizard and changed how the world studies Texas Hold'em. Today, it is PLO's turn.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "turn",
+          "gto"
+        ]
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "How GTO Wizard Solved PLO",
+      "originalUrl": "https://blog.gtowizard.com/how-gto-wizard-solved-plo/",
+      "author": null,
+      "publishedAt": "Tue, 12 May 2026 11:14:56 GMT",
+      "summary": "Just like GTO Wizard AI for No-Limit Hold’em, GTO Wizard AI PLO solutions are solved on the fly according to the parameters you input. These are solved using state-of-the-art technology that combines traditional solving methods with predictive neural networks to solve any spot within seconds!",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "gto"
+        ]
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "Exploiting Profiles: Episode II – The Nit",
+      "originalUrl": "https://blog.gtowizard.com/exploiting-profiles-episode-ii-the-nit/",
+      "author": null,
+      "publishedAt": "Mon, 04 May 2026 11:42:17 GMT",
+      "summary": "We will compare BTN’s c-bet strategy when playing heads up against a Nit and against a GTO opponent in a 100bb cash game, BTN vs BB SRP via custom reports.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "gto",
+          "exploit"
+        ]
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "Exploiting Profiles: Episode I – The Calling Station",
+      "originalUrl": "https://blog.gtowizard.com/exploiting-profiles-episode-i-the-calling-station/",
+      "author": null,
+      "publishedAt": "Mon, 27 Apr 2026 15:16:00 GMT",
+      "summary": "In this article, we will derive some heuristics for exploiting calling stations specifically. Before we proceed, however, it is important to understand what exactly player profiles are and what they can and cannot do.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "exploit"
+        ]
+      }
+    },
+    {
+      "source": "GTO Wizard",
+      "sourceSlug": "gto-wizard",
+      "sourceUrl": "https://blog.gtowizard.com/",
+      "title": "Small Blind, Big Problems: When to Size Up From OOP BvB",
+      "originalUrl": "https://blog.gtowizard.com/small-blind-big-problems-when-to-size-up-from-oop-bvb/",
+      "author": null,
+      "publishedAt": "Sun, 19 Apr 2026 13:14:00 GMT",
+      "summary": "This article will give you a plan of action for establishing which types of boards prefer which sizing schemes and which types of hands fit into these schemes (both for value and for bluffs) when OOP BvB in Spin and Gos.",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "bluff"
+        ]
+      }
+    },
+    {
+      "source": "Upswing Poker",
+      "sourceSlug": "upswing-poker",
+      "sourceUrl": "https://upswingpoker.com/",
+      "title": "Garrett Adelstein Had the Perfect Bluff-Catcher. He Folded Anyway.",
+      "originalUrl": "https://upswingpoker.com/garrett-adelstein-had-the-perfect-bluff-catcher-he-folded-anyway/",
+      "author": null,
+      "publishedAt": "Fri, 28 Aug 2026 15:40:04 +0000",
+      "summary": "Garrett Adelstein had reached the river with Ks Jc on Jd 2d 2s 9h Kc and bet $25,000 for value when Jackie Wang raised to $110,000. In theory, Garrett had an excellent bluff-catcher. But after hundreds of hours playing together, he couldn’t remember seeing Jackie pull the trigger on an enormous bluff like this. Jackie&#8230; The post Garrett Adelstein Had the Perfect Bluff-Catcher. He Folded Anyway. appeared first on Upswing Poker .",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "river",
+          "bluff"
+        ]
+      }
+    },
+    {
+      "source": "Upswing Poker",
+      "sourceSlug": "upswing-poker",
+      "sourceUrl": "https://upswingpoker.com/",
+      "title": "Protected: Why Garrett Adelstein’s “I’ve Got It” Speech Play Backfired",
+      "originalUrl": "https://upswingpoker.com/why-garrett-adelsteins-ive-got-it-speech-play-backfired/",
+      "author": null,
+      "publishedAt": "Thu, 27 Aug 2026 12:00:15 +0000",
+      "summary": "There is no excerpt because this is a protected post. The post Protected: Why Garrett Adelstein’s “I’ve Got It” Speech Play Backfired appeared first on Upswing Poker .",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": []
+      }
+    },
+    {
+      "source": "Upswing Poker",
+      "sourceSlug": "upswing-poker",
+      "sourceUrl": "https://upswingpoker.com/",
+      "title": "Aces vs Kings, 500 Big Blinds Deep: Can Garrett Get Away?",
+      "originalUrl": "https://upswingpoker.com/aces-vs-kings-500-big-blinds-deep-can-garrett-get-away/",
+      "author": null,
+      "publishedAt": "Fri, 21 Aug 2026 09:00:23 +0000",
+      "summary": "By Duncan Smith · Online Cash Game Pro Garrett Adelstein has Kh Kc in a 4-bet pot; the flop comes 9-high, and there are no real draws to speak of. For most players, that’s all that needs to be said. The money is going in, and a cooler in a 1,000bb pot is inevitable. But&#8230; The post Aces vs Kings, 500 Big Blinds Deep: Can Garrett Get Away? appeared first on Upswing Poker .",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "flop"
+        ]
+      }
+    },
+    {
+      "source": "Upswing Poker",
+      "sourceSlug": "upswing-poker",
+      "sourceUrl": "https://upswingpoker.com/",
+      "title": "Too Weak to Call, Strong Enough to Raise: Garrett Adelstein&#8217;s $60K Bluff",
+      "originalUrl": "https://upswingpoker.com/too-weak-to-call-strong-enough-to-raise-garrett-adelsteins-60k-bluff/",
+      "author": null,
+      "publishedAt": "Fri, 14 Aug 2026 01:56:41 +0000",
+      "summary": "By Duncan Smith · Online Cash Game Pro Garrett Adelstein had already become one of the biggest winners on Hustler Casino Live when he played this epic hand in September 2022. He knew his pocket queens were no good on this river. Aaron Zhang had just overbet $15,000 on the river, and the board had run out&#8230; The post Too Weak to Call, Strong Enough to Raise: Garrett Adelstein&#8217;s $60K Bluff appeared first on Upswing Poker .",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "river",
+          "bluff"
+        ]
+      }
+    },
+    {
+      "source": "Upswing Poker",
+      "sourceSlug": "upswing-poker",
+      "sourceUrl": "https://upswingpoker.com/",
+      "title": "Garrett Adelstein Was Sure His Opponent Couldn’t Bluff. He Was Wrong.",
+      "originalUrl": "https://upswingpoker.com/garrett-adelstein-kk-vs-art-ak-bluff-live-at-the-bike-breakdown/",
+      "author": null,
+      "publishedAt": "Fri, 07 Aug 2026 15:13:11 +0000",
+      "summary": "By Duncan Smith · Online Cash Game Pro Garrett Adelstein had already become one of the biggest winners on Live at the Bike when he played one of the most consequential hands of his career in March 2018. The game was $100/$200 with a $200 ante, and Garrett and regular opponent Art Papazyan were roughly&#8230; The post Garrett Adelstein Was Sure His Opponent Couldn’t Bluff. He Was Wrong. appeared first on Upswing Poker .",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "bluff"
+        ]
+      }
+    },
+    {
+      "source": "Upswing Poker",
+      "sourceSlug": "upswing-poker",
+      "sourceUrl": "https://upswingpoker.com/",
+      "title": "How Garrett Adelstein Used a Weak Player to Bluff Patrik Antonius",
+      "originalUrl": "https://upswingpoker.com/garrett-adelstein-used-weakest-player-bluff-patrik-antonius/",
+      "author": null,
+      "publishedAt": "Fri, 31 Jul 2026 13:25:19 +0000",
+      "summary": "By Duncan Smith · Online Cash Game Pro Garrett Adelstein had not played poker in more than a year when he sat down in a $100/$200/$400 game with a $200 ante in December 2023. Rather than ease back in, he immediately found himself in a massive pot against Patrik Antonius, a player he admired growing&#8230; The post How Garrett Adelstein Used a Weak Player to Bluff Patrik Antonius appeared first on Upswing Poker .",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "bluff"
+        ]
+      }
+    },
+    {
+      "source": "Upswing Poker",
+      "sourceSlug": "upswing-poker",
+      "sourceUrl": "https://upswingpoker.com/",
+      "title": "Garrett vs Dwan: 4 Lessons From a High-Stakes Cash Game Hand",
+      "originalUrl": "https://upswingpoker.com/garrett-adelstein-4-lessons-tom-dwan/",
+      "author": null,
+      "publishedAt": "Thu, 23 Jul 2026 17:30:59 +0000",
+      "summary": "By Duncan Smith · Online Cash Game Pro Garrett Adelstein recently broke down a fascinating hand against Tom Dwan from a $200/$200/$400 ($200 big blind ante) cash game in 2021. Watch Garrett&#8217;s video on YouTube. The hand has all the ingredients you’d expect from these two creative and aggressive players. Garrett takes an unusual preflop&#8230; The post Garrett vs Dwan: 4 Lessons From a High-Stakes Cash Game Hand appeared first on Upswing Poker .",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "preflop",
+          "flop"
+        ]
+      }
+    },
+    {
+      "source": "Upswing Poker",
+      "sourceSlug": "upswing-poker",
+      "sourceUrl": "https://upswingpoker.com/",
+      "title": "Why Milestone Satellites Require a Different Poker Strategy",
+      "originalUrl": "https://upswingpoker.com/milestone-satellites-win-tickets-strategy/",
+      "author": null,
+      "publishedAt": "Fri, 10 Jul 2026 14:00:08 +0000",
+      "summary": "Moneymaker. The Poker Boom. Do you know what they have in common? Satellite tournaments. Moneymaker&#8217;s historic run began in an online qualifier. However, that was in a traditional satellite. If you’re chasing your own Moneymaker moment, you need to know how satellites work — and today, that means understanding milestone satellites. In this article, you’ll&#8230; The post Why Milestone Satellites Require a Different Poker Strategy appeared first on Upswing Poker .",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "mtt"
+        ]
+      }
+    },
+    {
+      "source": "Upswing Poker",
+      "sourceSlug": "upswing-poker",
+      "sourceUrl": "https://upswingpoker.com/",
+      "title": "3 Times You Should Bet Big on the Turn (And 3 Times You Shouldn’t)",
+      "originalUrl": "https://upswingpoker.com/3-turn-spots-go-big-3-spots-shouldnt/",
+      "author": null,
+      "publishedAt": "Fri, 03 Jul 2026 14:00:52 +0000",
+      "summary": "Sizing your bets optimally on the turn can help you win more money when you are ahead and lose less when you are behind. Knowing when to choose one size over the other is thus important for maximizing your win-rate. There are many ways to reach the turn (in position vs out of position, single&#8230; The post 3 Times You Should Bet Big on the Turn (And 3 Times You Shouldn’t) appeared first on Upswing Poker .",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "turn"
+        ]
+      }
+    },
+    {
+      "source": "Upswing Poker",
+      "sourceSlug": "upswing-poker",
+      "sourceUrl": "https://upswingpoker.com/",
+      "title": "3 Cash Game Exploits That Print Against Today’s Regs (Backed By Data)",
+      "originalUrl": "https://upswingpoker.com/3-cash-game-exploits-regs-backed-by-data/",
+      "author": null,
+      "publishedAt": "Fri, 26 Jun 2026 14:00:18 +0000",
+      "summary": "I shouldn’t be giving this away for free, but you’re getting lucky today. If you want to make money playing poker, you have to craft your strategy in a way that takes advantage of certain deficiencies in your opponents’ way of playing. In this article, I’m not going to go down the rabbit hole of&#8230; The post 3 Cash Game Exploits That Print Against Today’s Regs (Backed By Data) appeared first on Upswing Poker .",
+      "language": "English",
+      "imageUrl": null,
+      "contentType": "article",
+      "classification": {
+        "difficulty": "intermediate",
+        "tags": [
+          "exploit"
+        ]
+      }
+    }
+  ]
+}

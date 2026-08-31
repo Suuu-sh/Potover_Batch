@@ -1,0 +1,26 @@
+name: Collect Potover sources
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'
+permissions: {contents: write}
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 20, cache: npm}
+      - run: npm ci
+      - run: npm run collect
+      - name: Update Potover data
+        env: {GH_TOKEN: '${{ secrets.POTOVER_REPO_TOKEN }}'}
+        run: |
+          git clone --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/Suuu-sh/Potover.git" potover
+          cp output/articles.json potover/data/articles.json
+          cd potover
+          git config user.name "potover-batch[bot]"
+          git config user.email "potover-batch[bot]@users.noreply.github.com"
+          git add data/articles.json
+          git diff --cached --quiet || git commit -m "chore: update collected source articles"
+          git push
