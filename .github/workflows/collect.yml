@@ -1,11 +1,10 @@
 name: Collect Potover sources
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 3 * * *'
 permissions: {contents: write}
 jobs:
   collect:
+    if: github.ref == 'refs/heads/main' && vars.POTOVER_PUBLICATION_READY == 'true' && vars.POTOVER_COLLECTION_APPROVED == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

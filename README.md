@@ -1,5 +1,7 @@
 # Potover Batch
 
-公開RSSから記事メタデータを毎日収集し、Potover本体の`data/articles.json`を更新します。本文は保存しません。
+RSSから記事メタデータを収集してPotoverのD1 APIへ手動同期する補助ワークフローです。本文は保存しません。通常の日次収集はPotover本体のworkflowが担当するため、このリポジトリの定期実行は停止しています。
 
-GitHub Actionsの`POTOVER_REPO_TOKEN` secretに、Potoverへpushできるfine-grained PATを登録してください。毎日UTC 03:00（日本時間12:00）に実行します。
+手動実行は`main`ブランチに限り、Potover側の`POTOVER_PUBLICATION_READY=true`と`POTOVER_COLLECTION_APPROVED=true`が設定された場合だけ動きます。各情報源の利用条件を確認するまでは両方の変数を未設定にしてください。
+
+Actions secretsに`POTOVER_API_URL`と`POTOVER_INGEST_TOKEN`を登録してください。`POTOVER_INGEST_TOKEN`はPotover Workerの`BATCH_INGEST_TOKEN`と同じ秘密値にします。
